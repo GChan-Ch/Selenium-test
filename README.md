@@ -27,8 +27,8 @@ The test simulates a full e-commerce user journey:
     ✔️ Cross-platform (tested on Linux & Windows)
 
 run test :
-pytest test_saucedemo.py -s -v
+- pytest test_saucedemo.py -s -v
 
-run test & save log output
-pytest test_saucedemo.py -s -v > log.txt 2>&1
+run test & save log output :
+- pytest test_saucedemo.py -s -v > log.txt 2>&1
 
